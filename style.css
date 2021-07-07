@@ -4,7 +4,7 @@ body{
     margin: 0px;
 }   
 :root{
-    --primary-color:#4F46E5;
+    --primary-color:#101820FF;
     --dark-grey:#6B7280;
     --light-grey:#E2E8F0;
 } 
@@ -21,16 +21,25 @@ hr{
 }
 
 .link{
+    
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
- .primary-link{
+a:hover{
+    color:rgb(194, 189, 189);
+}
+ .primary-link {
+     display: block;
+     max-width: 120px;
    background-color: var(--primary-color);
    color: white;
    border-radius: 0.5rem;
-   
+   margin: 1rem 1rem 1rem 0rem;
 }
+
 .secondary-link{
+    display: block;
+    max-width: 120px;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
@@ -51,11 +60,11 @@ hr{
 }
 .navigation {
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 3rem 0rem;
     width: 100%;
     color: white;
     border-bottom-left-radius: 1rem;
-    
+    font-family: 'popins' sans-serif;
     
 }
 .li-color{
@@ -99,6 +108,7 @@ hr{
     border-top-right-radius: 0.5rem;
     margin-top: 5px;
     text-align: center;
+    
 }
 .footer ul{
     padding-inline-start: none;
