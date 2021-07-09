@@ -68,13 +68,17 @@ a:hover{
     
     
 }
-@media only screen and (max-width: 500px) {
-   
+@media only screen and (max-width: 600px) {
+   .navigation{
+       text-align: left;
+       
+   }
     
     .navigation ul{
         display: block;
-        text-align: left;
+        text-align: center;
         width: 100%;
+        
         
     }
     .footer ul{
