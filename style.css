@@ -30,7 +30,7 @@ a:hover{
 }
  .primary-link {
      display: block;
-     max-width: 120px;
+     max-width: 130px;
    background-color: var(--primary-color);
    color: white;
    border-radius: 0.5rem;
@@ -39,7 +39,7 @@ a:hover{
 
 .secondary-link{
     display: block;
-    max-width: 120px;
+    max-width: 130px;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
@@ -66,7 +66,22 @@ a:hover{
     border-bottom-left-radius: 1rem;
     font-family: 'popins' sans-serif;
     
+    
 }
+@media only screen and (max-width: 500px) {
+   
+    
+    .navigation ul{
+        display: block;
+        text-align: left;
+        width: 100%;
+        
+    }
+    .footer ul{
+        line-height: 2rem;
+    }
+}
+
 .li-color{
     color: white;
 }
